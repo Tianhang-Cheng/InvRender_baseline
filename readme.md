@@ -1,5 +1,5 @@
 # InvRender Experiments for "ERROR: Evaluation of Reconstruction and Rendering for Object Relighting"
-Please find the modified code base at: https://anonymous.4open.science/r/tensoir-3D3C/README.md
+Please find the modified code base at: [https://anonymous.4open.science/r/tensoir-3D3C/README.md](https://anonymous.4open.science/r/InvRender_baseline-F77F/readme.md)
 
 ## Dataset
 download our dataset and extract to 'dataset'
