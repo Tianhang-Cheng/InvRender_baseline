@@ -76,9 +76,10 @@ python training/exp_runner.py \
 ```
 
 ### Relighting
-# Note: change the checkpoint path accordingly.
-# you may need to modify line 242 to line 273 of train_material.py for different types of datasets
-# for our dataset, you should run envmaps/fig_envmap_with_sg.py to create ground-truth envmap for relighting
+Note: change the checkpoint path accordingly.
+you may need to modify line 242 to line 273 of train_material.py for different types of datasets
+for our dataset, you should run envmaps/fig_envmap_with_sg.py to create ground-truth envmap for relighting
+
 ```bash
 python training/exp_runner.py \
     --conf confs_sg/default.conf \
