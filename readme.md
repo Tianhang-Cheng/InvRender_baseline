@@ -35,30 +35,37 @@ python create_neus_data_test.py  path/to/wood_bowl/test  dataset_neus_test/wood_
 you need to modify line 55 to line 86 of datasets/syn_dataset.py to assign the path of masks for different types of datasets
 
 ### geometry
+```bash
 python training/exp_runner.py \
     --conf confs_sg/default.conf \
     --data_split_dir /path/to/dataset_neus/antman \
     --expname antman \
     --trainstage IDR
+```
 
 ### illumination
+```bash
 python training/exp_runner.py \
     --conf confs_sg/default.conf \
     --data_split_dir  /path/to/dataset_neus/antman \
     --expname antman \
     --trainstage Illum
+```
 
 ### material
+```bash
 python training/exp_runner.py \
     --conf confs_sg/default.conf \
     --data_split_dir  /path/to/dataset_neus/antman \
     --expname antman \
     --trainstage Material
+```
 
 ## Evaluation
 ### Novel views
 # Note: change the checkpoint path accordingly.
 
+```bash
 python training/exp_runner.py \
     --conf confs_sg/default.conf \
     --data_split_dir  /path/to/dataset_neus/antman \
@@ -66,11 +73,13 @@ python training/exp_runner.py \
     --trainstage Material \
     --is_continue \
     --eval 
+```
 
 ### Relighting
 # Note: change the checkpoint path accordingly.
 # you may need to modify line 242 to line 273 of train_material.py for different types of datasets
 # for our dataset, you should run envmaps/fig_envmap_with_sg.py to create ground-truth envmap for relighting
+```bash
 python training/exp_runner.py \
     --conf confs_sg/default.conf \
     --data_split_dir  /path/to/dataset_neus/antman \
@@ -78,3 +87,4 @@ python training/exp_runner.py \
     --trainstage Material \
     --is_continue \
     --eval_relight
+```
