@@ -1,4 +1,4 @@
-# InvRender Experiments for ["Objects with Lighting"](https://github.com/benjaminum/object-relighting-dataset)
+# InvRender Experiments for 3DV paper [Objects with Lighting](https://github.com/benjaminum/object-relighting-dataset)
 
 ## Dataset
 download our dataset and extract to 'dataset'
