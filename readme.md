@@ -1,5 +1,4 @@
-# InvRender Experiments for "ERROR: Evaluation of Reconstruction and Rendering for Object Relighting"
-Please find the modified code base at: https://anonymous.4open.science/r/InvRender_baseline-F77F/readme.md
+# InvRender Experiments for ["Objects with Lighting"](https://github.com/benjaminum/object-relighting-dataset)
 
 ## Dataset
 download our dataset and extract to 'dataset'
