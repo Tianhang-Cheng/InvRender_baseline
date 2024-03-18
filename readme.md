@@ -62,7 +62,8 @@ python training/exp_runner.py \
 
 ## Evaluation
 ### Novel views
-# Note: change the checkpoint path accordingly.
+
+Note: change the checkpoint path accordingly.
 
 ```bash
 python training/exp_runner.py \
